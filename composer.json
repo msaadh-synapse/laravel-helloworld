@@ -5,7 +5,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "fa21bsse1013\\HelloWorld\\": "src/"
+      "fa21bsse1013\\Helloworld\\": "src/"
     }
   },
   "require": {
@@ -15,10 +15,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "fa21bsse1013\\HelloWorld\\HelloWorldServiceProvider"
+        "fa21bsse1013\\Helloworld\\HelloWorldServiceProvider"
       ],
       "aliases": {
-        "HelloWorld": "fa21bsse1013\\HelloWorld\\Facades\\HelloWorld"
+        "Helloworld": "fa21bsse1013\\Helloworld\\Facades\\HelloWorld"
       }
     }
   },
