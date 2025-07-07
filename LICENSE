@@ -1,0 +1,24 @@
+{
+  "name": "fa21bsse1013/helloworld",
+  "description": "A simple Laravel HelloWorld package",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "fa21bsse1013\\HelloWorld\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^9.0|^10.0|^11.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "fa21bsse1013\\HelloWorld\\HelloWorldServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

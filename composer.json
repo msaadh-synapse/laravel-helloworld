@@ -1,0 +1,33 @@
+{
+  "name": "yourname/helloworld",
+  "description": "A simple Laravel HelloWorld package",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "YourName\\HelloWorld\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^9.0|^10.0|^11.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "YourName\\HelloWorld\\HelloWorldServiceProvider"
+      ],
+      "aliases": {
+        "HelloWorld": "YourName\\HelloWorld\\Facades\\HelloWorld"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../laravel-helloworld"
+    }
+  ]
+}
