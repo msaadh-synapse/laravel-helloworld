@@ -1,6 +1,6 @@
 <?php
 
-namespace YourName\HelloWorld;
+namespace fa21bsse1013\HelloWorld;
 
 use Illuminate\Support\ServiceProvider;
 

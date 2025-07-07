@@ -1,6 +1,6 @@
 <?php
 
-namespace YourName\HelloWorld\Facades;
+namespace fa21bsse1013\HelloWorld\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
