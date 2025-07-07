@@ -1,11 +1,11 @@
 {
-  "name": "yourname/helloworld",
+  "name": "fa21bsse1013/helloworld",
   "description": "A simple Laravel HelloWorld package",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "YourName\\HelloWorld\\": "src/"
+      "fa21bsse1013\\HelloWorld\\": "src/"
     }
   },
   "require": {
@@ -15,10 +15,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "YourName\\HelloWorld\\HelloWorldServiceProvider"
+        "fa21bsse1013\\HelloWorld\\HelloWorldServiceProvider"
       ],
       "aliases": {
-        "HelloWorld": "YourName\\HelloWorld\\Facades\\HelloWorld"
+        "HelloWorld": "fa21bsse1013\\HelloWorld\\Facades\\HelloWorld"
       }
     }
   },
